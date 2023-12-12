@@ -8,6 +8,7 @@ public class Piece extends GameUnit {
         this.identifier = identifier;
     }
 
+    @Override
     public String getPosition() {
         return identifier + super.getPosition();
     }
