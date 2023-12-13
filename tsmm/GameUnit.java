@@ -12,4 +12,9 @@ public class GameUnit {
     public String getPosition() {
         return x + y;
     }
+
+    public static void boardSetup() {
+
+    }
+
 }
