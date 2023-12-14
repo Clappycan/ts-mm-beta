@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Logger logger = Logger.getLogger(Main.class.getName());
         logger.setLevel(Level.INFO);
+        GameUnit.boardSetup();
         logger.info(GameUnit.testing());
     }
 }
